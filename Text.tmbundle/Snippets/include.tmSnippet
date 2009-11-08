@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!--# include virtual="$1" --&gt;</string>
+	<string>&lt;!--# include virtual="$0" --&gt;</string>
 	<key>name</key>
-	<string>Include</string>
+	<string>include</string>
 	<key>scope</key>
 	<string>string, text</string>
 	<key>tabTrigger</key>
