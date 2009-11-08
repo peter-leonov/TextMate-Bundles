@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;form action="?" method="post" enctype="multipart/form-data" accept-charset="utf-8"&gt;
+	$0
+	
+	&lt;p&gt;&lt;button type="submit"&gt;Submit&lt;/button&gt;&lt;/p&gt;
+&lt;/form&gt;</string>
+	<key>name</key>
+	<string>Ease form</string>
+	<key>scope</key>
+	<string>string, text</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>CCDB37D5-D9B8-4DD2-B1FE-660C92AE78A9</string>
+</dict>
+</plist>

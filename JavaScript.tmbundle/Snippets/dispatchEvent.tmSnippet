@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>dispatchEvent({type:'$1', $2})</string>
+	<key>name</key>
+	<string>dispatchEvent</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>dispatchEvent</string>
+	<key>uuid</key>
+	<string>F9C6C967-3649-49B1-B70E-301053BD5605</string>
+</dict>
+</plist>
