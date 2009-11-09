@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>res=$(CocoaDialog inputbox --title "New test" --informative-text "Please give me a name:" --button1 "Okay" --button2 "Cancel")
+
+[[ $(head -n1 &lt;&lt;&lt;"$res") == "2" ]] &amp;&amp; exit_discard
+
+res=$(tail -n1 &lt;&lt;&lt;"$res")
+
+DIR="$TM_PROJECT_DIRECTORY/$TM_JS_TESTS_DIR"
+FILE="$res.html"
+
+mkdir -p $DIR
+cp -a $DIR/template.html $DIR/$FILE
+mate $DIR/$FILE</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>~@t</string>
+	<key>name</key>
+	<string>new test</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>4F6EB08B-A06E-4BE3-B672-DD13EB0B82F2</string>
+</dict>
+</plist>
