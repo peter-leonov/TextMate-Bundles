@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>tests.test(function ()
+	<string>job.test('${1:test name}', function (test)
 {
-	
+	$2
 })
 </string>
 	<key>name</key>
