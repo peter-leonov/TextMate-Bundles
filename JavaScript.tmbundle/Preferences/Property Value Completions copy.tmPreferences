@@ -50,6 +50,7 @@
 			<string>prototype</string>
 			<string>indexOf</string>
 			<string>typeof</string>
+			<string>instanceof</string>
 			<string>unshift</string>
 			<string>undefined</string>
 			<string>null</string>
