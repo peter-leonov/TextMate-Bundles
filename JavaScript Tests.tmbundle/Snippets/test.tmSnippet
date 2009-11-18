@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>t.test('${1:test name}', function (t)
+	<string>t.test('${1:untitled}', function (t)
 {
 	$2
 })
