@@ -3,14 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!--# include virtual="$0" --&gt;</string>
+	<string>t.test('${1:test name}', function (t)
+{
+	$2
+})
+</string>
 	<key>name</key>
-	<string>include</string>
+	<string>test</string>
 	<key>scope</key>
-	<string>source.js, text.html</string>
+	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>include</string>
+	<string>test</string>
 	<key>uuid</key>
-	<string>3E85325F-9110-45AA-9C78-84D3EBFB6CEB</string>
+	<string>FEAC5BEF-D467-4850-9DC1-A8D129CC3B5C</string>
 </dict>
 </plist>

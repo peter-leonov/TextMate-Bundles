@@ -22,7 +22,7 @@ mate $DIR/$FILE</string>
 	<key>keyEquivalent</key>
 	<string>~@t</string>
 	<key>name</key>
-	<string>new test</string>
+	<string>new test file</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>uuid</key>

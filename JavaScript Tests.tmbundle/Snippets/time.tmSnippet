@@ -3,18 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>job.test('${1:test name}', function (test)
-{
-	$2
-})
-</string>
+	<string>t.time('${1}')
+t.timeEnd('${1}')</string>
 	<key>name</key>
-	<string>test</string>
+	<string>time</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>test</string>
+	<string>time</string>
 	<key>uuid</key>
-	<string>FEAC5BEF-D467-4850-9DC1-A8D129CC3B5C</string>
+	<string>9433557E-2D91-4270-902A-D25ED9F2D68C</string>
 </dict>
 </plist>

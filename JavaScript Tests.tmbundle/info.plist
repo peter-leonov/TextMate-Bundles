@@ -3,12 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Developer</string>
+	<string>JavaScript Tests</string>
 	<key>ordering</key>
 	<array>
+		<string>6ABD6878-A965-416B-9C02-EBD61C0EA8F1</string>
+		<string>1BA95AC0-2318-4225-BD89-3FD99EF06CD7</string>
+		<string>9433557E-2D91-4270-902A-D25ED9F2D68C</string>
+		<string>FEAC5BEF-D467-4850-9DC1-A8D129CC3B5C</string>
 		<string>4F6EB08B-A06E-4BE3-B672-DD13EB0B82F2</string>
 	</array>
 	<key>uuid</key>
-	<string>D97A6BD2-78F1-442B-B91B-A07CED68EDD8</string>
+	<string>4B2B38BC-B4A8-4ACA-B7F9-93369808F765</string>
 </dict>
 </plist>
