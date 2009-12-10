@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ngx_log_debug${1:0}(NGX_LOG_DEBUG_HTTP, ${2:r-&gt;connection-&gt;log}, 0, "${3:message}");</string>
+	<key>name</key>
+	<string>ngx_log_debug</string>
+	<key>scope</key>
+	<string>source.c</string>
+	<key>tabTrigger</key>
+	<string>dlog</string>
+	<key>uuid</key>
+	<string>5083BEBA-FDD2-4D36-92BF-CB67F655C18F</string>
+</dict>
+</plist>
