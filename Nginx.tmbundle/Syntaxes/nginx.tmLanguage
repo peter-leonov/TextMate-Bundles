@@ -232,6 +232,21 @@
 			<key>name</key>
 			<string>keyword.language.module.http.userid</string>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\bjs\b</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>source.nginx.embedded.js</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.js</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.nginx</string>
