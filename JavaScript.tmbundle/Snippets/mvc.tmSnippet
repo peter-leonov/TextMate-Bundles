@@ -6,22 +6,24 @@
 	<string>;(function(){
 
 var myName = '${1:WidgetName}',
-	Me = self[myName] = Class.create(myName)
+	Me = self[myName] = MVC.create(myName)
 
 // Me.mixIn(EventDriven)
-// eval(NodesShortcut())
 
 var myProto =
 {
 	initialize: function ()
 	{
-		this.nodes = {}
+		this.model.initialize()
+		this.view.initialize()
+		this.controller.initialize()
 	},
 
-	bind: function (nodes)
+	bind: function (nodes, sources, state)
 	{
-		this.nodes = nodes
-		${2}
+		this.model.bind(sources)
+		this.view.bind(nodes)
+		this.controller.bind(state)
 		
 		return this
 	}
@@ -29,7 +31,95 @@ var myProto =
 
 Object.extend(Me.prototype, myProto)
 
-})();</string>
+})();
+
+
+;(function(){
+
+var Papa = ${1:WidgetName}, Me = Papa.View
+
+eval(NodesShortcut())
+
+var myProto =
+{
+	initialize: function ()
+	{
+		this.nodes = {}
+	},
+	
+	bind: function (nodes)
+	{
+		this.nodes = nodes
+		
+		${2:this.nodes.word = this.nodes.main.appendChild(T(''))}
+		
+		return this
+	},
+	
+	modelChanged: function (data)
+	{
+		this.nodes.word.nodeValue = data
+	}
+}
+
+Object.extend(Me.prototype, myProto)
+
+})();
+
+
+;(function(){
+
+var Papa = ${1:WidgetName}, Me = Papa.Controller
+
+var myProto =
+{
+	initialize: function ()
+	{
+		this.state = {}
+	},
+	
+	bind: function (state)
+	{
+		this.model.setState(state)
+	}
+}
+
+Object.extend(Me.prototype, myProto)
+
+})();
+
+
+;(function(){
+
+var Papa = ${1:WidgetName}, Me = Papa.Model
+
+var myProto =
+{
+	initialize: function ()
+	{
+		this.sources = {}
+		this.state = {}
+	},
+	
+	bind: function (sources)
+	{
+		this.sources = sources
+	},
+	
+	setState: function (state)
+	{
+		this.state = state
+		this.word = this.sources.words[state.selected]
+		this.view.modelChanged(this.word)
+	}
+}
+
+Object.extend(Me.prototype, myProto)
+
+})();
+
+var widget = new ${1:WidgetName}()
+widget.bind({main: document.body}, {words:["zero", "one", "two", "three"]}, {selected:0})</string>
 	<key>name</key>
 	<string>mvc</string>
 	<key>scope</key>
