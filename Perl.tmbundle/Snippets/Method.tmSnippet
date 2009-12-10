@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sub ${1:method_name}
+{
+	my (\$self, ${2:params}) = @_;
+	$3
+}
+</string>
+	<key>name</key>
+	<string>Method</string>
+	<key>scope</key>
+	<string>source.perl</string>
+	<key>tabTrigger</key>
+	<string>met</string>
+	<key>uuid</key>
+	<string>EC34855D-7C6A-42FD-9AAA-46DEB12E7E08</string>
+</dict>
+</plist>

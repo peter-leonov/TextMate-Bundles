@@ -31,12 +31,12 @@ Object.extend(Me.prototype, myProto)
 
 })();</string>
 	<key>name</key>
-	<string>widget</string>
+	<string>mvc</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>widget</string>
+	<string>mvc</string>
 	<key>uuid</key>
-	<string>694E7C7F-86DC-4474-A24A-5EF97492160F</string>
+	<string>417EC890-E0A4-4CC9-B866-F4511ACC7B3E</string>
 </dict>
 </plist>

@@ -54,25 +54,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\"</string>
-			<key>name</key>
-			<string>constant.character.quote</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>\\.*\ |\~|\~\*|\!\~|\!\~\*</string>
 			<key>name</key>
 			<string>string.regexp</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\"(.*)\"</string>
+			<string>\"(\\"|.)*\"</string>
 			<key>name</key>
 			<string>string.quoted</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\'(.*)\'</string>
+			<string>\'(\'|.)*\'</string>
 			<key>name</key>
 			<string>string.quoted</string>
 		</dict>
