@@ -6,13 +6,13 @@
 	<string>;(function(){
 
 var myName = '${1:WidgetName}',
-	Me = self[myName] = Class(myName)
+	Me = self[myName] = Class.create(myName)
 
 // Me.mixIn(EventDriven)
 // eval(NodesShortcut())
 
-Me.prototype.extend
-({
+var myProto =
+{
 	initialize: function ()
 	{
 		this.nodes = {}
@@ -25,7 +25,9 @@ Me.prototype.extend
 		
 		return this
 	}
-})
+}
+
+Object.extend(Me.prototype, myProto)
 
 })();</string>
 	<key>name</key>
