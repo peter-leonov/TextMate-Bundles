@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>;(function(){
+
+var myName = '${1:WidgetName}',
+	Me = self[myName] = Class.create(myName)
+
+// Me.mixIn(EventDriven)
+// eval(NodesShortcut())
+
+var myProto =
+{
+	initialize: function ()
+	{
+		this.nodes = {}
+	},
+
+	bind: function (nodes)
+	{
+		this.nodes = nodes
+		${2}
+		
+		return this
+	}
+}
+
+Object.extend(Me.prototype, myProto)
+
+})();</string>
+	<key>name</key>
+	<string>mvc</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>mvc</string>
+	<key>uuid</key>
+	<string>417EC890-E0A4-4CC9-B866-F4511ACC7B3E</string>
+</dict>
+</plist>
