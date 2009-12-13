@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>;(function(){
+
+var myName = '${1:ClassName}'
+
+// eval(NodesShortcut())
+
+function Me ()
+{
+	${2}
+}
+
+Me.prototype =
+{
+	constructor: Me,
+	${3}
+}
+
+// Me.mixIn(EventDriven)
+Me.className = myName
+self[myName] = Me
+
+})();</string>
+	<key>name</key>
+	<string>class</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>53D1F415-982A-4369-BC19-61BC52D78EDF</string>
+</dict>
+</plist>
