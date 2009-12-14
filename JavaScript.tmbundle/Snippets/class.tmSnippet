@@ -12,12 +12,15 @@ var myName = '${1:ClassName}'
 function Me ()
 {
 	${2}
+	this.constructor = Me
 }
 
 Me.prototype =
 {
-	constructor: Me,
-	${3}
+	bind: function ()
+	{
+		${3}
+	}
 }
 
 // Me.mixIn(EventDriven)
