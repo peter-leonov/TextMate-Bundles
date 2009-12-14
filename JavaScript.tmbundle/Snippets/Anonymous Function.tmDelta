@@ -5,7 +5,7 @@
 	<key>changed</key>
 	<dict>
 		<key>content</key>
-		<string>function () { $1 }</string>
+		<string>function (${1:e}) { $2 }</string>
 	</dict>
 	<key>deleted</key>
 	<array/>
