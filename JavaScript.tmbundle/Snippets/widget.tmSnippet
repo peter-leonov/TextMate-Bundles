@@ -5,29 +5,31 @@
 	<key>content</key>
 	<string>;(function(){
 
-var myName = '${1:WidgetName}',
-	Me = self[myName] = Class.create(myName)
+var myName = '${1:WidgetName}'
 
-// Me.mixIn(EventDriven)
+function Me ()
+{
+	this.nodes = {}
+	this.constructor = Me
+}
+
 // eval(NodesShortcut())
 
-var myProto =
+Me.prototype =
 {
-	initialize: function ()
-	{
-		this.nodes = {}
-	},
-
 	bind: function (nodes)
 	{
 		this.nodes = nodes
-		${2}
+		
+		$2
 		
 		return this
 	}
 }
 
-Object.extend(Me.prototype, myProto)
+// Me.mixIn(EventDriven)
+Me.className = myName
+self[myName] = Me
 
 })();</string>
 	<key>name</key>
