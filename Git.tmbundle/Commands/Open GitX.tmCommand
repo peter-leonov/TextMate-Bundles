@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+cd $TM_PROJECT_DIRECTORY
+gitx -c
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~@x</string>
+	<key>name</key>
+	<string>Open GitX</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>32D5D6D9-F788-4DCD-BDDD-7C57FE3DE95D</string>
+</dict>
+</plist>
