@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>function ()
+	<string>function (${1:e})
 {
-	$1
+	$0
 },</string>
 	<key>name</key>
-	<string>Anonymous Function 2</string>
+	<string>fu</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
