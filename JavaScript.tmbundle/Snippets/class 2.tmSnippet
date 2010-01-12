@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:ClassName} ()
+{
+	${2}
+	this.constructor = ${1:ClassName}
+}
+
+${1:ClassName}.prototype =
+{
+	
+}
+
+${1:ClassName}.className = '${1:ClassName}'
+self[${1:ClassName}.className] = ${1:ClassName}</string>
+	<key>name</key>
+	<string>class</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>39B7B4DE-0DB1-447A-86E6-E29D0895CAC5</string>
+</dict>
+</plist>

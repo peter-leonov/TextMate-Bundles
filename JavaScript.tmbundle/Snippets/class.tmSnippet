@@ -29,11 +29,11 @@ self[myName] = Me
 
 })();</string>
 	<key>name</key>
-	<string>class</string>
+	<string>classns</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>class</string>
+	<string>classns</string>
 	<key>uuid</key>
 	<string>53D1F415-982A-4369-BC19-61BC52D78EDF</string>
 </dict>
