@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/sh
+echo -n "&lt;strong&gt;UPD $(date +%Y-%m-%d):&lt;/strong&gt; "</string>
+	<key>fallbackInput</key>
+	<string>character</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@&amp;</string>
+	<key>name</key>
+	<string>UPD: YYYY-MM-DD</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>upd</string>
+	<key>uuid</key>
+	<string>4F5B555E-17E7-4CEF-8775-8009DF77308D</string>
+</dict>
+</plist>
