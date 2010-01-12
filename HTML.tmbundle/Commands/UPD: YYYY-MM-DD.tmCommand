@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/sh
-echo -n "&lt;strong&gt;UPD $(date +%Y-%m-%d):&lt;/strong&gt; "</string>
+echo -n "&lt;strong&gt;UPD $(date +%Y-%m-%d)&lt;/strong&gt;: "</string>
 	<key>fallbackInput</key>
 	<string>character</string>
 	<key>input</key>
