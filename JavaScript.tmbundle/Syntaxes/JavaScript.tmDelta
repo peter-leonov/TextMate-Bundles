@@ -525,7 +525,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\bnull\b</string>
+				<string>\bnull|undefined\b</string>
 				<key>name</key>
 				<string>constant.language.null.js</string>
 			</dict>
