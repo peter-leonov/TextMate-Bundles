@@ -6,22 +6,18 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/sh
-echo -n "&lt;strong&gt;UPD $(date +%Y-%m-%d)&lt;/strong&gt;: "</string>
+echo -n "$(date "+%Y-%m-%d %H:%M:%S %z")"</string>
 	<key>fallbackInput</key>
 	<string>character</string>
 	<key>input</key>
 	<string>none</string>
-	<key>keyEquivalent</key>
-	<string>@&amp;</string>
 	<key>name</key>
-	<string>UPD: YYYY-MM-DD</string>
+	<string>Date</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
-	<key>scope</key>
-	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>upd</string>
+	<string>date</string>
 	<key>uuid</key>
-	<string>4F5B555E-17E7-4CEF-8775-8009DF77308D</string>
+	<string>C69C760D-4F08-450F-B34F-0AA5355DF107</string>
 </dict>
 </plist>
