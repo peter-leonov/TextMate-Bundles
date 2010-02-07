@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>plural('${1:1 яблоко}', '${2:2 яблока}', '${3:5 яблок}')</string>
+	<key>name</key>
+	<string>plural</string>
+	<key>tabTrigger</key>
+	<string>plural</string>
+	<key>uuid</key>
+	<string>1F44A3B5-AFB1-4424-AB2E-780C8DE27B57</string>
+</dict>
+</plist>
