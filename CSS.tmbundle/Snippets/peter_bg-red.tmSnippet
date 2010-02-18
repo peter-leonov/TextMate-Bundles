@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-color: red !important; </string>
+	<string>background-color: red !important;$0</string>
 	<key>name</key>
 	<string>peter.bg-red</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>height: ${1:0}px; $0</string>
+	<string>height: ${1:0px};$0</string>
 	<key>name</key>
 	<string>height</string>
 	<key>scope</key>
