@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>t.ne(${1:a}, ${2:b})</string>
+	<key>name</key>
+	<string>ne</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>ne</string>
+	<key>uuid</key>
+	<string>ABE6F38F-D477-43D4-86CC-8C6904645A86</string>
+</dict>
+</plist>
