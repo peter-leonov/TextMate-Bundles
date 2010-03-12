@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!--# if expr="${1:\$HTTP_USER_AGENT = /MSIE [678]\./}" --&gt;
+$0
+&lt;!--# else --&gt;
+
+&lt;!--# endif --&gt;
+</string>
+	<key>name</key>
+	<string>if</string>
+	<key>scope</key>
+	<string>source.js, text.html, text.xml, source.css</string>
+	<key>tabTrigger</key>
+	<string>if</string>
+	<key>uuid</key>
+	<string>80C9B641-356B-48FE-B67A-4130242AE803</string>
+</dict>
+</plist>
