@@ -7,7 +7,7 @@
 
 var myName = '${1:ClassName}'
 
-// eval(NodesShortcut())
+// eval(NodesShortcut.include())
 
 function Me ()
 {
