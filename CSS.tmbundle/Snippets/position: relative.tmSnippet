@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>position: ${1:relative}; $0</string>
+	<string>position: ${1:relative};</string>
 	<key>name</key>
 	<string>position: relative</string>
 	<key>scope</key>
