@@ -38,7 +38,7 @@ Object.extend(Me.prototype, myProto)
 
 var Papa = ${1:WidgetName}, Me = Papa.View
 
-eval(NodesShortcut())
+eval(NodesShortcut.include())
 
 var myProto =
 {
@@ -52,8 +52,6 @@ var myProto =
 		this.nodes = nodes
 		
 		${2:this.nodes.word = this.nodes.main.appendChild(T(''))}
-		
-		return this
 	},
 	
 	modelChanged: function (data)
@@ -73,10 +71,7 @@ var Papa = ${1:WidgetName}, Me = Papa.Controller
 
 var myProto =
 {
-	initialize: function ()
-	{
-		this.state = {}
-	},
+	initialize: function () {},
 	
 	bind: function (state)
 	{
