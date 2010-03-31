@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>t.ne(${1:a}, ${2:b})</string>
+	<string>t.ne(${1:a}, ${2:b}, '${3:description}')</string>
 	<key>name</key>
 	<string>ne</string>
 	<key>scope</key>

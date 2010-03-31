@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>t.eq(${1:a}, ${2:b})</string>
+	<string>t.eq(${1:a}, ${2:b}, '${3:description}')</string>
 	<key>name</key>
 	<string>eq</string>
 	<key>scope</key>
