@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>t.like(${1:a}, ${2:b}, '${3:description}')</string>
+	<key>name</key>
+	<string>like</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>like</string>
+	<key>uuid</key>
+	<string>72F95BD6-970D-4DFF-A45E-161FF876A54D</string>
+</dict>
+</plist>
