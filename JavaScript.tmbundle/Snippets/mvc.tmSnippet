@@ -5,8 +5,12 @@
 	<key>content</key>
 	<string>;(function(){
 
+var Papa
+
+;(function(){
+
 var myName = '${1:WidgetName}',
-	Me = self[myName] = MVC.create(myName)
+	Me = Papa = self[myName] = MVC.create(myName)
 
 // Me.mixIn(EventDriven)
 
@@ -18,7 +22,7 @@ var myProto =
 		this.view.initialize()
 		this.controller.initialize()
 	},
-
+	
 	bind: function (nodes, sources, state)
 	{
 		this.model.bind(sources)
@@ -36,7 +40,7 @@ Object.extend(Me.prototype, myProto)
 
 ;(function(){
 
-var Papa = ${1:WidgetName}, Me = Papa.View
+var Me = Papa.View
 
 eval(NodesShortcut.include())
 
@@ -67,7 +71,7 @@ Object.extend(Me.prototype, myProto)
 
 ;(function(){
 
-var Papa = ${1:WidgetName}, Me = Papa.Controller
+var Me = Papa.Controller
 
 var myProto =
 {
@@ -86,7 +90,7 @@ Object.extend(Me.prototype, myProto)
 
 ;(function(){
 
-var Papa = ${1:WidgetName}, Me = Papa.Model
+var Me = Papa.Model
 
 var myProto =
 {
@@ -113,8 +117,11 @@ Object.extend(Me.prototype, myProto)
 
 })();
 
-var widget = new ${1:WidgetName}()
-widget.bind({main: document.body}, {words:["zero", "one", "two", "three"]}, {selected:0})</string>
+
+})();
+
+// var widget = new ${1:WidgetName}()
+// widget.bind({main: document.body}, {words:["zero", "one", "two", "three"]}, {selected:0})</string>
 	<key>name</key>
 	<string>mvc</string>
 	<key>scope</key>
