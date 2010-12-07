@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/sh
+SIZE=$(cat "$TM_FILEPATH" | wc -c)
+echo "$SIZE plain"
+
+SIZE=$(gzip -1nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -1"
+
+SIZE=$(gzip -2nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -2"
+
+SIZE=$(gzip -3nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -3"
+
+SIZE=$(gzip -4nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -4"
+
+SIZE=$(gzip -5nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -5"
+
+SIZE=$(gzip -6nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -6"
+
+SIZE=$(gzip -7nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -7"
+
+SIZE=$(gzip -8nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -8"
+
+SIZE=$(gzip -9nc "$TM_FILEPATH" | wc -c)
+echo "$SIZE gzip -9"
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>size gzipped 123456789</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>5B870AD8-ECDF-4321-A5AF-684CEDDECDDF</string>
+</dict>
+</plist>
