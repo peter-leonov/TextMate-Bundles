@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>indent do
+	$0
+end # indent
+</string>
+	<key>disableAutoIndent</key>
+	<true/>
+	<key>name</key>
+	<string>indent</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>indent</string>
+	<key>uuid</key>
+	<string>CBC63816-E495-43E5-9B73-E5084A5F843C</string>
+</dict>
+</plist>
