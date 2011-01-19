@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>padding-top: ${1:0}px;</string>
+	<string>padding-top: ${1:0px};</string>
 	<key>name</key>
 	<string>padding-top</string>
 	<key>scope</key>
