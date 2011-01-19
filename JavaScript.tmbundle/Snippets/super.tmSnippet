@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>return superProto.${1:method}.apply(this, ${2:arguments})$0</string>
+	<key>name</key>
+	<string>super</string>
+	<key>tabTrigger</key>
+	<string>super</string>
+	<key>uuid</key>
+	<string>6B70F060-282C-412E-9C7F-3285AB26C295</string>
+</dict>
+</plist>
