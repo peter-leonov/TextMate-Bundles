@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>padding-top: ${1:0}px;</string>
+	<string>visibility: ${1:visible};</string>
 	<key>name</key>
-	<string>padding-top</string>
+	<string>visibility: visible</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>pt</string>
+	<string>vv</string>
 	<key>uuid</key>
-	<string>8A6F54FA-41F7-4E56-8958-07438A8AE7E3</string>
+	<string>91043903-1570-48F3-96E7-147940311F08</string>
 </dict>
 </plist>

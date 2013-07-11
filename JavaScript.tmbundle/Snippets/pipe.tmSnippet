@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>padding-top: ${1:0}px;</string>
+	<string>var p = pipe()
+p.write(${1:value})
+return p.read</string>
 	<key>name</key>
-	<string>padding-top</string>
-	<key>scope</key>
-	<string>source.css</string>
+	<string>pipe</string>
 	<key>tabTrigger</key>
-	<string>pt</string>
+	<string>pipe</string>
 	<key>uuid</key>
-	<string>8A6F54FA-41F7-4E56-8958-07438A8AE7E3</string>
+	<string>EC68911D-FA8C-4A30-8CCA-6E8CD27EBB4E</string>
 </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>display: ${1:none};</string>
+	<string>display: ${1:inline-block};</string>
 	<key>name</key>
 	<string>display</string>
 	<key>scope</key>

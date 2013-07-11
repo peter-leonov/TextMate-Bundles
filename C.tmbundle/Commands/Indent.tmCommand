@@ -6,25 +6,21 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/sh
-SIZE=$(cat "$TM_FILEPATH" | wc -c)
-echo "$SIZE plain"
 
-SIZE=$(gzip -1nc "$TM_FILEPATH" | wc -c)
-echo "$SIZE gzip -1"
-
-SIZE=$(gzip -5nc "$TM_FILEPATH" | wc -c)
-echo "$SIZE gzip -5"
-
-SIZE=$(gzip -9nc "$TM_FILEPATH" | wc -c)
-echo "$SIZE gzip -9"
-</string>
+/usr/local/bin/gindent -nut -bl -bli0 -cli2 -npcs</string>
+	<key>fallbackInput</key>
+	<string>scope</string>
 	<key>input</key>
 	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@p</string>
 	<key>name</key>
-	<string>size gzipped</string>
+	<string>Indent</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source</string>
 	<key>uuid</key>
-	<string>9008F60C-06A8-41FF-AAF0-114082B8F295</string>
+	<string>46DFD245-28A5-4AA8-8118-05B6A0CBF8AD</string>
 </dict>
 </plist>

@@ -13,8 +13,6 @@ $0
 	<string>if</string>
 	<key>scope</key>
 	<string>source.js, text.html, text.xml, source.css</string>
-	<key>tabTrigger</key>
-	<string>if</string>
 	<key>uuid</key>
 	<string>80C9B641-356B-48FE-B67A-4130242AE803</string>
 </dict>

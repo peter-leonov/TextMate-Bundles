@@ -39,7 +39,7 @@ echo "$SIZE gzip -9"
 	<key>input</key>
 	<string>selection</string>
 	<key>name</key>
-	<string>size gzipped 123456789</string>
+	<string>size gzipped</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>uuid</key>

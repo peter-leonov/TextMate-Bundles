@@ -3,15 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>changed</key>
-	<dict>
-		<key>content</key>
-		<string>z-index: ${1:1};</string>
-	</dict>
+	<dict/>
 	<key>deleted</key>
 	<array/>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>2EED405C-FBAF-4AEB-9B30-ED8EB2252378</string>
+	<string>4679297D-6227-11D9-BFB1-000D93589AF6</string>
 </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>dispatchEvent({type:'$1', $2})</string>
+	<string>dispatchEvent('${1:type}', {value: ${2:''}})</string>
 	<key>name</key>
 	<string>dispatchEvent</string>
 	<key>scope</key>

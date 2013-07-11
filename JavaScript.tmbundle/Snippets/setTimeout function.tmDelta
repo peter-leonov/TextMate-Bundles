@@ -5,11 +5,11 @@
 	<key>changed</key>
 	<dict>
 		<key>content</key>
-		<string>setTimeout(function () { $1 }, ${2:1})</string>
+		<string>window.setTimeout(function () { $1 }, ${2:1})</string>
 		<key>name</key>
 		<string>setTimeout</string>
 		<key>tabTrigger</key>
-		<string>setTimeout</string>
+		<string>sett</string>
 	</dict>
 	<key>deleted</key>
 	<array/>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>addClassName('$1')$0</string>
+	<string>classList.add('${1:class}')$0</string>
 	<key>name</key>
-	<string>addClassName</string>
+	<string>classList.add</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>addClassName</string>
+	<string>cla</string>
 	<key>uuid</key>
 	<string>D779FDA7-93FC-4910-BFE1-9534D9486FC6</string>
 </dict>

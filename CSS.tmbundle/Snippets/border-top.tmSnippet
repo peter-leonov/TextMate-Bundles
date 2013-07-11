@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>padding-top: ${1:0}px;</string>
+	<string>border-top: ${1:0px} ${2:solid} ${3:#fff};</string>
 	<key>name</key>
-	<string>padding-top</string>
+	<string>border-top</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>pt</string>
+	<string>bt</string>
 	<key>uuid</key>
-	<string>8A6F54FA-41F7-4E56-8958-07438A8AE7E3</string>
+	<string>2900B325-E999-473F-8A6F-91B26BA4111E</string>
 </dict>
 </plist>
